@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run 02_interfaz_descarga.py
+web: sh setup.sh && streamlit run 02-interfaz_descarga.py
