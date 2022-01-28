@@ -22,7 +22,7 @@ ht_2 = Image.open('ht2.jfif')
 ht = Image.open('logo.png')
 
 #%%
-db_pctes = "D:\HealthTracker\database_pctes.xlsx"
+db_pctes = "database_pctes.xlsx"
 db_pctes_df = pd.read_excel(db_pctes)
 pct_tup = list(db_pctes_df['Paciente'])
 pct_tup = tuple(pct_tup)
